@@ -1,9 +1,9 @@
 {
-  "name": "egg-view-react",
+  "name": "egg-view-angular",
   "version": "1.1.0",
-  "description": "egg view plugin for react",
+  "description": "egg view plugin for angular",
   "eggPlugin": {
-    "name": "react",
+    "name": "angular",
     "dependencies": [
       "view"
     ]
@@ -13,11 +13,11 @@
     "eggPlugin",
     "egg-plugin",
     "egg-view",
-    "react"
+    "angular"
   ],
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "@angular/common": "^6.1.3",
+    "@angular/platform-server": "^6.1.3"
   },
   "devDependencies": {
     "autod": "^2.8.0",
@@ -54,12 +54,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-view-react.git"
+    "url": "git+https://github.com/bitkanlabs/egg-view-angular.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/bitkanlabs/egg-view-angular/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-view-react#readme",
-  "author": "hubcarl@126.com",
+  "homepage": "https://github.com/bitkanlabs/egg-view-angular#readme",
+  "author": "clark@bitkan.com",
   "license": "MIT"
 }
