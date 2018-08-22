@@ -15,7 +15,7 @@
     "egg-view",
     "angular"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "@angular/common": "^6.1.3",
     "@angular/platform-server": "^6.1.3"
   },
