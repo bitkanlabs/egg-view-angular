@@ -1,14 +1,14 @@
 'use strict';
 
 const Engine = require('../../lib/engine');
-const REACT_ENGINE = Symbol('Application#react');
+const ANGULAR_ENGINE = Symbol('Application#angular');
 
 module.exports = {
 
   get react() {
-    if (!this[REACT_ENGINE]) {
-      this[REACT_ENGINE] = new Engine(this);
+    if (!this[ANGULAR_ENGINE]) {
+      this[ANGULAR_ENGINE] = new Engine(this);
     }
-    return this[REACT_ENGINE];
+    return this[ANGULAR_ENGINE];
   },
 };

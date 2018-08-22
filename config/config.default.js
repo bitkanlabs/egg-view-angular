@@ -5,8 +5,7 @@ module.exports = () => {
 
   config.view = {
     mapping: {
-      '.js': 'react',
-      '.jsx': 'react',
+      '.js': 'ng',
     },
   };
 
