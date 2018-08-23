@@ -1,5 +1,5 @@
 'use strict';
 
-exports.react = {
+exports.angular = {
   cache: false,
 };

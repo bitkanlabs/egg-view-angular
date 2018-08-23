@@ -5,7 +5,7 @@ const ANGULAR_ENGINE = Symbol('Application#angular');
 
 module.exports = {
 
-  get react() {
+  get angular() {
     if (!this[ANGULAR_ENGINE]) {
       this[ANGULAR_ENGINE] = new Engine(this);
     }
