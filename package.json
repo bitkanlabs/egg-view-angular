@@ -15,7 +15,7 @@
     "egg-view",
     "angular"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "@ngks/engine": "^0.0.1"
   },
   "devDependencies": {
