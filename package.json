@@ -1,6 +1,6 @@
 {
   "name": "egg-view-angular",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "egg view plugin for angular",
   "eggPlugin": {
     "name": "angular",
@@ -15,19 +15,15 @@
     "egg-view",
     "angular"
   ],
-  "peerDependencies": {
-    "@ngks/engine": "^0.0.1"
+  "dependencies": {
+    "nguniversal-common-engine": "^0.0.1"
   },
   "devDependencies": {
-    "autod": "^2.8.0",
-    "autod-egg": "^1.0.0",
     "egg": "^1.4.0",
     "egg-bin": "^3.4.0",
-    "egg-ci": "^1.6.0",
     "egg-mock": "^3.7.0",
     "eslint": "^3.19.0",
     "eslint-config-egg": "^4.2.0",
-    "supertest": "^3.0.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
