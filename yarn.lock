@@ -2701,9 +2701,9 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
-nguniversal-common-engine@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/nguniversal-common-engine/-/nguniversal-common-engine-0.0.1.tgz#54027a8bffae7948f02571f3f0634c5cea7b122f"
+nguniversal-common-engine@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/nguniversal-common-engine/-/nguniversal-common-engine-0.0.5.tgz#7a7ee930a14014a8c0bae610f363e24e175d4fd1"
   dependencies:
     tslib "^1.9.0"
 
