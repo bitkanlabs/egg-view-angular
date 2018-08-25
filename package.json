@@ -16,7 +16,7 @@
     "angular"
   ],
   "dependencies": {
-    "nguniversal-common-engine": "^0.0.5"
+    "@nguniversal/common": "^6.1.0"
   },
   "devDependencies": {
     "egg": "^1.4.0",
