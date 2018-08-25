@@ -16,7 +16,8 @@
     "angular"
   ],
   "dependencies": {
-    "@nguniversal/common": "^6.1.0"
+    "@nguniversal/common": "^6.1.0",
+    "@nguniversal/module-map-ngfactory-loader": "^6.1.0"
   },
   "devDependencies": {
     "egg": "^1.4.0",
