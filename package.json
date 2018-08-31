@@ -1,6 +1,6 @@
 {
   "name": "egg-view-angular",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "egg view plugin for angular",
   "eggPlugin": {
     "name": "angular",
@@ -16,7 +16,8 @@
     "angular"
   ],
   "dependencies": {
-    "@nguniversal/common": "^6.1.0"
+    "@nguniversal/common": "^6.1.0",
+    "@nguniversal/module-map-ngfactory-loader": "^6.1.0"
   },
   "devDependencies": {
     "egg": "^1.4.0",
