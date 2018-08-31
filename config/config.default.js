@@ -10,6 +10,8 @@ module.exports = () => {
     },
   };
 
+  config.ngi18n = {};
+
   return config;
 };
 

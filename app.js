@@ -5,5 +5,5 @@ module.exports = app => {
   require('./lib/ng-locale')(app, app.config.angular);
 
   // 自动加载 Middleware
-  app.config.coreMiddleware.push('ng-locale');
+  app.config.coreMiddleware.push('ngi18n');
 };
