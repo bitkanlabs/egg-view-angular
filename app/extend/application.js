@@ -1,14 +1,23 @@
 'use strict';
 
 const Engine = require('../../lib/engine');
-const ANGULAR_ENGINE = Symbol('Application#angular');
+const ANGULAR = Symbol('Application#angular');
+const LOCALES = Symbol('Application#locales');
 
 module.exports = {
 
   get angular() {
-    if (!this[ANGULAR_ENGINE]) {
-      this[ANGULAR_ENGINE] = new Engine(this);
+    if (!this[ANGULAR]) {
+      this[ANGULAR] = new Engine(this);
     }
-    return this[ANGULAR_ENGINE];
+    return this[ANGULAR];
   },
+
+  get locales() {
+    if (!this[LOCALES]) {
+      this[LOCALES] = {};
+    }
+    return this[LOCALES];
+  },
+
 };

@@ -1,9 +1,12 @@
 'use strict';
 
 module.exports = app => {
+  // Config
+  require('./lib/angular')(app);
+
+  // 自动加载 View
   app.view.use('angular', require('./lib/view'));
-  require('./lib/ngi18n')(app, app.config.angular);
 
   // 自动加载 Middleware
-  app.config.coreMiddleware.push('ngi18n');
+  app.config.coreMiddleware.push('locale-base-href');
 };
