@@ -1,6 +1,6 @@
 'use strict';
 
-const LOCALES = Symbol('Application#locales');
+const LOCALES = Symbol('Context#locales');
 
 module.exports = {
 
