@@ -8,5 +8,5 @@ module.exports = app => {
   app.view.use('angular', require('./lib/view'));
 
   // 自动加载 Middleware
-  app.config.coreMiddleware.push('locale-base-href');
+  app.config.coreMiddleware.push('localeBaseHref');
 };
