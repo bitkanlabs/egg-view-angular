@@ -1,6 +1,6 @@
 {
   "name": "egg-view-angular",
-  "version": "0.5.9",
+  "version": "0.5.10",
   "description": "egg view plugin for angular",
   "eggPlugin": {
     "name": "angular",
