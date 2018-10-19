@@ -16,11 +16,14 @@
     "angular"
   ],
   "dependencies": {
-    "@nguniversal/common": "^6.1.0",
-    "@nguniversal/module-map-ngfactory-loader": "^6.1.0",
+    "@nguniversal/common": "^6.1.0 || ^7.0.0",
+    "@nguniversal/module-map-ngfactory-loader": "^6.1.0 || ^7.0.0",
     "lodash.mapvalues": "^4.6.0"
   },
   "devDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@angular/platform-server": "^7.0.0",
     "egg": "^1.4.0",
     "egg-bin": "^3.4.0",
     "egg-mock": "^3.7.0",
